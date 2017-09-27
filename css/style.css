@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    align-content: stretch;
+    justify-content: left;
+    align-items: flex-start;
+
+    width: 100vw;
+    margin: 0;
+
+    background-image: url("/img/bloons.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.bloonListStyle {
+    display: flex;
+    align-content: space-around;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.bloonStyle {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    font-size: 24px;
+
+    padding: 8px;
+
+    color: white;
+
+    text-shadow: 1px 1px black;
+
+    min-width: 200px;
+    min-height: 200px;
+    background-color: rgba(186, 37, 58, 0.85);
+
+    margin: 20px;
+
+    border-radius: 5px;
+}

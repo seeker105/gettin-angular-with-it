@@ -1,0 +1,19 @@
+<div ng-style="{ 'background-color': $ctrl.bloon.color }" class="bloonStyle">
+    <div>
+        <label>Name: </label><input type="text" size="15" ng-model="$ctrl.bloon.name"></input>
+    </div>
+
+    <div>
+        <label>Color: </label><input type="text" size="15" ng-model="$ctrl.bloon.color"></input>
+    </div>
+
+    <div>
+        <label>Price: {{ $ctrl.bloon.price | currency}}</label>
+    </div>
+
+    <div>
+        <button ng-click="$ctrl.showName()">Show Name</button>
+        <!-- <button ng-click="$ctrl.increasePrice()">Increase!</button> -->
+    </div>
+
+</div>
