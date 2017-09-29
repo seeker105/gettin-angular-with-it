@@ -1,0 +1,17 @@
+<div>
+    <h1>Make A Robot!</h1><br/>
+    <p>
+        NAME: <input type="text" size="20" ng-model="$ctrl.newRobot.name"></input>
+    </p>
+    <p>
+        DIRECTIVE: <input type="text" size="20" ng-model="$ctrl.newRobot.directive"></input>
+    </p>
+    <p>
+        <input type="button" value="ENGAGE!" ng-click="$ctrl.createNewRobot()"></input>
+    </p>
+</div>
+<div ng-repeat="robot in $ctrl.robots">
+    <p>Name: {{ robot.name }}</p>
+    <p>id: {{ robot.id }}</p>
+    <p>Directive: {{ robot.directive }}</p>
+</div>
