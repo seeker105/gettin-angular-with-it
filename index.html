@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/style.css"></link>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
 
     <script src="/js/app.js"></script>
     <script src="/js/bloon/bloonService.js"></script>
@@ -16,11 +17,23 @@
     <script src="/js/bloonList/bloonListService.js"></script>
     <script src="/js/bloonList/bloonListController.js"></script>
     <script src="/js/bloonList/bloonListComponent.js"></script>
+
+    <script src="/js/bloonDetail/bloonDetailService.js"></script>
+    <script src="/js/bloonDetail/bloonDetailController.js"></script>
+    <script src="/js/bloonDetail/bloonDetailComponent.js"></script>
+
+    <script src="/js/description/descriptionService.js"></script>
+    <script src="/js/description/descriptionController.js"></script>
+    <script src="/js/description/descriptionComponent.js"></script>
+
+    <script src="/js/robot/robotListService.js"></script>
+    <script src="/js/robot/robotListController.js"></script>
+    <script src="/js/robot/robotListComponent.js"></script>
     
 </head>
 
-<body ng-app="bloonApp" class="container">
-    <bloon-list-component></bloon-list-component>
+<body ng-app="bloonApp" class="container fullScreen">
+    <ui-view class="fullScreen"></ui-view>
 </body>
 
 </html>

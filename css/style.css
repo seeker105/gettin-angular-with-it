@@ -24,6 +24,34 @@
     flex-direction: row;
 }
 
+.bloonDetailStyle {
+    display: flex;
+    align-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: palegreen;
+    height: 70vh;
+    width: 70vw;
+    padding: 5vw 5vh 5vw 5vh;
+
+}
+
+.centeredContent { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullScreen {
+    height: 100vh;
+    width: 100vw;
+}
+
+.bloonDetailStyle label {
+    font-size: 42px;
+    color: white;
+}
+
 .bloonStyle {
 
     display: flex;
